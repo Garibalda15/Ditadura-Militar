@@ -1,0 +1,151 @@
+#fonte{
+  font-family: 'Courier New', monospace;
+}
+
+#a{
+  
+ text-decoration: none; 
+      color: #000080; 
+      font-size: 1.4em; 
+      margin-right: 15px; 
+      padding: 5px; 
+      border-radius: 3px; 
+      transition: background-color 0.3s;  
+
+}
+
+ #b {
+      display: block;               
+      width: fit-content;           
+      margin: 0 auto;            
+      padding: 12px 24px;
+      background-color: #808080;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    #b:hover {
+      background-color: #808080;
+    }
+
+.container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .p {
+      font-size: 16px;
+      color: #555;
+      line-height: 1.6;
+    }
+     .iframe-container {
+      margin-top: 30px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 0px solid #ddd;
+    }
+
+    iframe {
+      width: 60%;
+      height: 300px;
+      border: none;
+    }
+
+/* Estilo do contêiner do formulário */
+.feedback-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do formulário */
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Estilos para o campo de telefone */
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Estilos para o sistema de estrelas */
+.stars {
+    display: flex;
+    gap: 5px;
+    direction: rtl;
+}
+
+.star {
+    font-size: 30px;
+    color: #ddd;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked ~ .star {
+    color: #f39c12;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+/* Estilos para o campo de telefone */
+small {
+    font-size: 12px;
+    color: #888;
+}
+
